@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { generateQuizFromImage, generateQuizFromText } from './geminiService';
 import { Question, PlayerState, QuizConfig, Language, QuestionType, SavedGame, MultiplayerMessage } from './types';
-import { useGameSounds } from './components/SoundManager';
-import { BalloonPopGame } from './components/BalloonPopGame';
+import { useGameSounds } from "./SoundManager";
+import { BalloonPopGame } from "./BalloonPopGame";
 
 declare var Peer: any;
 
